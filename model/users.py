@@ -1,6 +1,7 @@
-from flask_lpiogin import UserMixin
+from flask_login import UserMixin
 from flask_sqlalchemy import SQLAlchemy
-import bcryptpip
+import bcrypt
+
 
 db = SQLAlchemy()
 
